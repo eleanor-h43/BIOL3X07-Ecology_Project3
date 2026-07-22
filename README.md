@@ -45,17 +45,15 @@ Rather than use a simple BACI which follows a 1:1:1:1 idea (**1 Before** dataset
 
 This is considered the "Holy Grail" of disturbance ecology — very difficult to implement in the field, but it offers the greatest statistical and inferential power.
 
-::: callout-note
-## Relevant Literature
+
+#### Relevant Literature
 
 Underwood, A. J. (1992). Beyond BACI: The detection of environmental impacts on populations in the real, but variable, world. *Journal of Experimental Marine Biology and Ecology*, 161(2), 145–178. https://doi.org/10.1016/0022-0981(92)90094-Q
-:::
 
 📺 [Video explainer of the Beyond-BACI design](https://www.youtube.com/watch?v=optX1PcmMGY)
 
-::: callout-tip
+#### Thought Exercise
 This is a small-scale study. Consider the benefits and limitations of this.
-:::
 
 ### Site Selection
 
@@ -96,26 +94,19 @@ See Powerpoint slides titled `site_images.pptx`.
 
 Given the size of the dataset, manually listening to and verifying every vocalisation isn't feasible, so detections are generated with BirdNET.
 
-::: callout-note
-## Relevant Literature
+#### Relevant Literature
 
 Kahl, S., Wood, C. M., Eibl, M., & Klinck, H. (2021). BirdNET: A deep learning solution for avian diversity monitoring. *Ecological Informatics*, 61, 101236.
-:::
 
 -   Download: [BirdNET-Analyzer v2.4.0](https://github.com/birdnet-team/BirdNET-Analyzer/releases/tag/v2.4.0) — make sure you're all using the same Model version and GUI version.
 -   Works on Windows computers or on Macs with M1 chip (not Intel). To check what chip you have go to Apple symbol in top left corner and click on `About This Mac`.
 -   Can be slow to open on laptops — be patient!
 -   Easiest to run on a university computer while connected to the research data store via campus wifi — set yourself up in the library one day and get some work done while BirdNET runs.
 
-::: callout-tip
-Consider the benefits and limitations of relying on an AI classifier for this project.
-:::
-
-::: callout-warning
-## Why activity, not abundance?
-
-Estimating true abundance from acoustic data alone is very difficult (cue-rate methods exist but vary by species, season, sex, weather, population/region, etc., and work far better for cetaceans than birds). This project instead measures either **activity** or **presence–absence**.
-:::
+#### Thought Exercises
+-   Consider the benefits and limitations of relying on an AI classifier for this project.
+-   Why activity, not abundance?
+-       Estimating true abundance from acoustic data alone is very difficult (cue-rate methods exist but vary by species, season, sex, weather, population/region, etc., and work far better for cetaceans than birds). This project instead measures either **activity** or **presence–absence**.
 
 ## Data
 
@@ -132,9 +123,8 @@ Datasets are named after the **collection trip** (when the SD card was retrieved
 | `2026_04` | Feb 2026 | Apr 2026 | 10 months post-burn |
 | `2026_07` | Apr 2026 | Jul 2026 | 12 months post-burn |
 
-::: callout-important
+### NOTE
 You will **NOT** use all of these — select **2 or 3 datasets** based on your project's aims and hypotheses.
-:::
 
 ## Repository Structure
 
