@@ -73,7 +73,7 @@ Fires were ignited with drip torches along south and east trails. No aerial igni
 
 ### Site photos
 
-See Powerpoint slides titled `site_images.pptx`.
+See Powerpoint slides in images folder titled `site_images.pptx`.
 
 *Additional site images from other times are available on request.*
 
