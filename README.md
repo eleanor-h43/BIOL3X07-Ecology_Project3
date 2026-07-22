@@ -135,6 +135,8 @@ You will **NOT** use all of these — select **2 or 3 datasets** based on your p
 │   ├── aru-device.jpg
 │   ├── layout6.jpg
 │   ├── layout21.jpg
+├── scripts/
+│   ├── combine_birdnet_files
 └── ... (analysis scripts, data, notebooks, etc. as the project develops)
 ```
 
