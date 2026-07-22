@@ -4,6 +4,8 @@
 
 #### Welcome and thanks for joining project 3!
 
+#### Please note that repo this is under active construction and files will be added throughout the semester.
+
 ------------------------------------------------------------------------
 
 ## Semester Timeline
