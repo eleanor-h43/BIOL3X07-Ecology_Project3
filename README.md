@@ -1,9 +1,3 @@
----
-title: "Untitled"
-format: html
-editor: visual
----
-
 # Birds, Burns, & Bioacoustics 🔥🦅
 
 #### **BIOL3007 — Semester 2 2026**
