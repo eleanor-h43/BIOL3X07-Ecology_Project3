@@ -126,7 +126,7 @@ Datasets are named after the **collection trip** (when the SD card was retrieved
 | `2026_07` | Apr 2026 | Jul 2026 | 12 months post-burn |
 
 ### NOTE
-You will **NOT** use all of these — select **2 or 3 datasets** based on your project's aims and hypotheses.
+You will **NOT** use all of these. This will be one of your first major decisions to make **as a group** and this is where you get to start creating your own experiment. Think about your aims and hypotheses. How will you go about answering them and what data would you need to achieve these aims successfully?
 
 ## Repository Structure
 
