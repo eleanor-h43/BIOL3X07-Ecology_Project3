@@ -187,7 +187,7 @@ Questions or issues? Reach out via email —
 
 -   Glenda - **glenda.wardle\@sydney.edu.au**
 
-### Welcome and we hope you enjoy project 3!
+#### Welcome and we hope you enjoy project 3!
 
 P.S. Here's a nicer looking map in case you want to use it. ![nice map](images/Layout21.jpg)
 
