@@ -154,6 +154,6 @@ Questions or issues? Reach out via email —
 
 ### Welcome and we hope you enjoy project 3!
 
-P.S. Here's a nicer looking map in case you want to use it. Please do not share this beyond the group. ![nice map](images/Layout21.jpg)
+P.S. Here's a nicer looking map in case you want to use it. ![nice map](images/Layout21.jpg)
 
 P.P.S. Technically it's **Ecoacoustics**, but then the alliteration is lost.
