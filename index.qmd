@@ -12,7 +12,7 @@ Please note that this repo is under active construction and files will be added 
 ## Semester Timeline
 
 | Week | Activity | Location |
-|-------------------|---------------------------|---------------------------|
+|----|----|----|
 | 1 | Form project groups & develop ideas | Carslaw Wet Lab 301/302 |
 | 2 | Groups finalise project ideas & approach | Carslaw Wet Lab 301/302 |
 | 3 | Project work, draft presentations — **Project outline & Risk Assessment due Thurs 5pm** | Carslaw Wet Lab 301/302 *(Eleanor at conference but can be reached by email)* |
@@ -25,22 +25,6 @@ Please note that this repo is under active construction and files will be added 
 | 12 | Self-directed work — summary & presentation prep | Meet with supervisor |
 | 13 | **Group project presentations (assessed) — Peer Review due** | Carslaw LT275 or Chemistry LT4 |
 | — | **Project report due — Sunday 8 Nov 2026, 11:59 pm (end of Week 13)** |  |
-
-------------------------------------------------------------------------
-
-## Overview
-
-Over the past decade, **Passive Acoustic Monitoring (PAM)** and advances in **Artificial Intelligence (AI)** have transformed ecological research, enabling scientists to monitor wildlife at unprecedented spatial and temporal scales. At the same time, ecosystems worldwide are experiencing increasingly frequent and severe disturbance events, with wildfires among the most significant. In Australia, **hazard-reduction (prescribed) burning** is widely used to reduce fuel loads, lower wildfire risk, and protect communities and infrastructure. It is also often promoted as a tool to maintain ecosystem health. Despite its widespread use, however, the short-term effects of prescribed fire on local wildlife remain poorly understood.
-
-Birds are among the most effective indicators of ecosystem condition. Occupying a range of niches from the forest floor to above the canopy, eating everything from carrion and invertebrates to fruit and seeds, they perform critical ecological functions including pest control, pollination, seed dispersal, and bioturbation. Changes in bird communities can therefore provide valuable insights into how ecosystems respond to environmental change and disturbance.
-
-This project investigates how hazard-reduction burning influences bird activity in the Greater Blue Mountains. Although the effects of fire on wildlife have been extensively studied, most research begins months or years after a fire has occurred. As a result, many studies can only compare burned and unburned sites after the disturbance. Ideally, ecologists would monitor both impacted and control sites before and after a fire using a well-replicated experimental design to gain a comprehensive understanding of the changes that have occurred at each site. Such studies are rare because they are often very difficult to implement in the field.
-
-For this project, we have been able to achieve exactly that. Using a **Beyond-BACI (Before–After Control–Impact)** design, autonomous recording units were deployed across multiple burned and unburned sites before and after a planned hazard-reduction burn. This design provides a unique opportunity to separate the effects of fire from natural variation through time.
-
-Sound recordings collected at these sites are analysed using ecoacoustic methods. Because acoustic datasets are often enormous, manually identifying every bird vocalisation is impractical. Instead, we use **BirdNET**, an AI classifier, to detect and identify bird vocalisations and quantify patterns of bird activity across sites and sampling periods.
-
-Through this project, students will have the opportunity to develop and test their own ecological questions, analyse real-world acoustic datasets, and evaluate how prescribed burning influences native bird communities. In doing so, they will gain experience with modern ecological monitoring techniques and explore the growing role of AI in conservation and environmental research.
 
 ------------------------------------------------------------------------
 
@@ -161,7 +145,7 @@ You should have read these papers before you chose this project. If you haven't,
 
 ### Scripts
 
-The `scripts` folder contains R scripts that have been developed to automate many of the more repetitive data-processing tasks associated with acoustic datasets.
+The `scripts` [folder](https://github.com/eleanor-h43/BIOL3X07-Ecology_Project3/tree/main/scripts) contains R scripts that have been developed to automate many of the more repetitive data-processing tasks associated with acoustic datasets.
 
 #### `combine_birdnet_files`
 
@@ -194,8 +178,6 @@ This script applies species-specific confidence thresholds to BirdNET detections
 ```
 
 ## Contact
-
-You can find scripts for code in the [Scripts folder](https://github.com/eleanor-h43/BIOL3X07-Ecology_Project3/tree/main/scripts) (we will add to this throughout the semester).
 
 Questions or issues? Reach out via email —
 
