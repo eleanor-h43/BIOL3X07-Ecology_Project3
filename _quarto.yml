@@ -2,9 +2,26 @@ project:
   type: website
 
 website:
-  title: "Birds, Burns & Bioacoustics 🔥🦅"
+  title: "Birds, Burns & Bioacoustics"
+
+  navbar:
+    left:
+      - href: index.qmd
+        text: Home
+
+      - href: background.qmd
+        text: Background
+
+      - href: methods.qmd
+        text: Methods & Data
+
+      - href: resources.qmd
+        text: Resources
+        
+      - href: faq.qmd
+        text: FAQ
 
 format:
   html:
-    theme: yeti
+    theme: cosmo
     toc: true

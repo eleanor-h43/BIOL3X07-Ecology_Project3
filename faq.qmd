@@ -1,0 +1,13 @@
+# FAQ
+
+## Which datasets should we use?
+
+There is no single correct answer...
+
+## How many species should we analyse?
+
+Depends on your question...
+
+## Why am I getting different BirdNET results?
+
+Check your model version...

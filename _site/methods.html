@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Birds, Burns &amp; Bioacoustics 🔥🦅 – Birds, Burns &amp; Bioacoustics</title>
+<title>methods – Birds, Burns &amp; Bioacoustics</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
@@ -92,7 +92,7 @@ ul.task-list li input[type="checkbox"] {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link active" href="./index.html" aria-current="page"> 
+    <a class="nav-link" href="./index.html"> 
 <span class="menu-text">Home</span></a>
   </li>  
   <li class="nav-item">
@@ -100,7 +100,7 @@ ul.task-list li input[type="checkbox"] {
 <span class="menu-text">Background</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./methods.html"> 
+    <a class="nav-link active" href="./methods.html" aria-current="page"> 
 <span class="menu-text">Methods &amp; Data</span></a>
   </li>  
   <li class="nav-item">
@@ -127,148 +127,140 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#research-project-information" id="toc-research-project-information" class="nav-link active" data-scroll-target="#research-project-information">Research Project Information</a>
+  <li><a href="#methods-data" id="toc-methods-data" class="nav-link active" data-scroll-target="#methods-data">Methods &amp; Data</a>
   <ul class="collapse">
-  <li><a href="#aims-and-background" id="toc-aims-and-background" class="nav-link" data-scroll-target="#aims-and-background">Aims and Background</a></li>
-  </ul></li>
-  <li><a href="#semester-timeline" id="toc-semester-timeline" class="nav-link" data-scroll-target="#semester-timeline">Semester Timeline</a></li>
-  <li><a href="#contact" id="toc-contact" class="nav-link" data-scroll-target="#contact">Contact</a>
-  <ul class="collapse">
-  <li><a href="#welcome-and-we-hope-you-enjoy-project-3" id="toc-welcome-and-we-hope-you-enjoy-project-3" class="nav-link" data-scroll-target="#welcome-and-we-hope-you-enjoy-project-3">Welcome and we hope you enjoy project 3!</a></li>
+  <li><a href="#recording-equipment" id="toc-recording-equipment" class="nav-link" data-scroll-target="#recording-equipment">Recording Equipment</a></li>
+  <li><a href="#automated-species-detection" id="toc-automated-species-detection" class="nav-link" data-scroll-target="#automated-species-detection">Automated Species Detection</a></li>
+  <li><a href="#data" id="toc-data" class="nav-link" data-scroll-target="#data">Data</a></li>
   </ul></li>
   </ul>
 </nav>
     </div>
 <!-- main -->
-<main class="content" id="quarto-document-content">
+<main class="content" id="quarto-document-content"><header id="title-block-header" class="quarto-title-block"></header>
 
-<header id="title-block-header" class="quarto-title-block default">
-<div class="quarto-title">
-<h1 class="title">Birds, Burns &amp; Bioacoustics 🔥🦅</h1>
-<p class="subtitle lead">BIOL3007 — Semester 2 2026</p>
+
+
+
+<section id="methods-data" class="level1">
+<h1>Methods &amp; Data</h1>
+<section id="recording-equipment" class="level2">
+<h2 class="anchored" data-anchor-id="recording-equipment">Recording Equipment</h2>
+<ul>
+<li>Each site is fitted with an autonomous recording unit (ARU): <strong>Titley Scientific Chorus</strong></li>
+<li>Units are programmed to record the <strong>first 10 minutes of every hour</strong>, every day, until the batteries die</li>
+<li>Audio is captured as <strong>16-bit WAV</strong>, sampled at <strong>44.1 ksps</strong> (44,100 samples/second)</li>
+<li>Recorders are cable-tied to trees with stainless steel ties, ~<strong>170 cm above ground</strong></li>
+</ul>
+<p><img src="images/aru-device.jpg" alt="Figure 2: ARU mounted on tree" width="400"></p>
+</section>
+<section id="automated-species-detection" class="level2">
+<h2 class="anchored" data-anchor-id="automated-species-detection">Automated Species Detection</h2>
+<p>Given the size of the dataset, manually listening to and verifying every vocalisation isn’t feasible, so detections are generated with BirdNET.</p>
+<ul>
+<li>Download: <a href="https://github.com/birdnet-team/BirdNET-Analyzer/releases/tag/v2.4.0">BirdNET-Analyzer v2.4.0</a> — make sure you’re all using the same Model version and GUI version.</li>
+<li>Works on Windows computers or on Macs with M1 chip (not Intel). To check what chip you have go to Apple symbol in top left corner and click on <code>About This Mac</code>.</li>
+<li>Can be slow to open on laptops — be patient!</li>
+<li>Easiest to run on a university computer while connected to the research data store via campus wifi — set yourself up in the library one day and get some work done while BirdNET runs.</li>
+</ul>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
 </div>
-
-
-
-<div class="quarto-title-meta">
-
-    
-  
-    
-  </div>
-  
-
-
-</header>
-
-
-<section id="welcome-and-thanks-for-joining-project-3" class="level4">
-<h4 class="anchored" data-anchor-id="welcome-and-thanks-for-joining-project-3">Welcome and thanks for joining project 3!</h4>
-<p>Please note that this repo is under active construction and files will be added throughout the semester.</p>
-<p>NOTE: Technically it’s <strong>Ecoacoustics</strong>, but then the alliteration is lost.</p>
-<p>This is the home page of our repository! It contains information regarding your assignment in general. Use the navigation bar above to move through different pages to learn more about the study design, the methods you will learn over the next semester, and to find relevant resources such as code and recommended literature.</p>
-<hr>
-</section>
-<section id="research-project-information" class="level2">
-<h2 class="anchored" data-anchor-id="research-project-information">Research Project Information</h2>
-<section id="aims-and-background" class="level3">
-<h3 class="anchored" data-anchor-id="aims-and-background">Aims and Background</h3>
-<p>The major aim of the project work is to allow you to design and execute a program of ecological research. Other objectives of the project are to complement the lecture course, to extend your experience of field and laboratory work from units such as BIOL2024 Ecology and Conservation, BIOL3009 Terrestrial Field Ecology or BIOL2022/2922 Biology experimental design &amp; analysis (if you have done these units), and to allow you to work on living organisms in natural or manipulated environments.</p>
-<p>By the time you begin your project, you should be familiar with concepts of experimental design in ecology, and of data collection and analysis. With this experience, you should be able to select a relevant ecological observation and to design methods of data collection and analysis to test hypotheses arising from models you have proposed to explain these observations (See Quinn, G.P. and Keough, M.J. (2002) Experimental Design and Data Analysis for Biologists, Cambridge University Press [particularly chapters 1-3]). Thus, the Ecology Research Project is designed to let you carry out a short-term program of research and to have the intellectual satisfaction of following up your own project ideas. Because the project extends over the semester, there is some flexibility in when you can carry out the study, but times should prioritise Wednesday labs and suit all group members.</p>
-<p>Most of you, we hope, will want to test models and hypotheses arising from your own observations. For those wanting a starting point, we provide some project ideas, references, and background material (below). We encourage you to discuss any project topics with us during the first practical session. This will allow you to form project groups, help you to select a project you are particularly interested in, and help us in getting materials and equipment ready in good time!</p>
-<p>Because the projects that you will be doing are new, there are no “right” or “wrong” results. However, if you begin with a clear aim and sound experimental design using a clear logical structure, you should be able to confidently interpret whatever findings you eventually obtain. Read published articles for how to design and structure an ecological study. e.g.&nbsp;Austral Ecology.</p>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Note</span>Relevant Literature
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Kahl, S., Wood, C. M., Eibl, M., &amp; Klinck, H. (2021). BirdNET: A deep learning solution for avian diversity monitoring. <em>Ecological Informatics</em>, 61, 101236.</p>
+</div>
+</div>
+<section id="thought-exercises" class="level4">
+<h4 class="anchored" data-anchor-id="thought-exercises">Thought Exercises</h4>
+<ul>
+<li>Consider the benefits and limitations of relying on an AI classifier for this project.</li>
+<li>Why activity, not abundance?</li>
+<li>Estimating true abundance from acoustic data alone is very difficult (cue-rate methods exist but vary by species, season, sex, weather, population/region, etc., and work far better for cetaceans than birds). This project instead measures either <strong>activity</strong> or <strong>presence–absence</strong>.</li>
+</ul>
 </section>
 </section>
-<section id="semester-timeline" class="level2">
-<h2 class="anchored" data-anchor-id="semester-timeline">Semester Timeline</h2>
+<section id="data" class="level2">
+<h2 class="anchored" data-anchor-id="data">Data</h2>
+<p>Datasets are named after the <strong>collection trip</strong> (when the SD card was retrieved), not when the audio was actually recorded — this can be confusing, so pay attention to the table below.</p>
 <table class="caption-top table">
-<colgroup>
-<col style="width: 26%">
-<col style="width: 36%">
-<col style="width: 36%">
-</colgroup>
 <thead>
 <tr class="header">
-<th>Week</th>
-<th>Activity</th>
-<th>Location</th>
+<th>Dataset</th>
+<th>Recorded</th>
+<th>Collected</th>
+<th>Relative to burn</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td>1</td>
-<td>Form project groups &amp; develop ideas</td>
-<td>Carslaw Wet Lab 301/302</td>
+<td><code>2025_02</code></td>
+<td>Nov 2024</td>
+<td>Feb 2025</td>
+<td>6 months pre-burn</td>
 </tr>
 <tr class="even">
-<td>2</td>
-<td>Groups finalise project ideas &amp; approach</td>
-<td>Carslaw Wet Lab 301/302</td>
+<td><code>2025_03</code></td>
+<td>Feb 2025</td>
+<td>Mar 2025</td>
+<td>3 months pre-burn</td>
 </tr>
 <tr class="odd">
-<td>3</td>
-<td>Project work, draft presentations — <strong>Project outline &amp; Risk Assessment due Thurs 5pm</strong></td>
-<td>Carslaw Wet Lab 301/302 <em>(Eleanor at conference but can be reached by email)</em></td>
-</tr>
-<tr class="even">
-<td>4</td>
-<td><strong>Group project presentations (assessed)</strong></td>
-<td>Carslaw LT275 or Chemistry LT4</td>
-</tr>
-<tr class="odd">
-<td>5</td>
-<td>Key ideas in ecology — discussion tutorials</td>
-<td>Carslaw Wet Lab 301/302</td>
-</tr>
-<tr class="even">
-<td>6</td>
-<td>Self-directed project work — data collection</td>
-<td>Carslaw Wet Lab 301/302 <em>OR</em> Online (decide with supervisors)</td>
-</tr>
-<tr class="odd">
-<td>7</td>
-<td>Key ideas in ecology (assessed, individual) — <strong>written assessment due Mon 15 Sept 2026</strong></td>
-<td>Carslaw LT275 or Chemistry LT4</td>
-</tr>
-<tr class="even">
-<td>8–10</td>
-<td>Self-directed project work — data collection</td>
-<td>Meet with supervisor</td>
-</tr>
-<tr class="odd">
-<td>11</td>
-<td>Self-directed project work — results &amp; analysis</td>
-<td>Meet with supervisor</td>
-</tr>
-<tr class="even">
-<td>12</td>
-<td>Self-directed work — summary &amp; presentation prep</td>
-<td>Meet with supervisor</td>
-</tr>
-<tr class="odd">
-<td>13</td>
-<td><strong>Group project presentations (assessed) — Peer Review due</strong></td>
-<td>Carslaw LT275 or Chemistry LT4</td>
-</tr>
-<tr class="even">
 <td>—</td>
-<td><strong>Project report due — Sunday 8 Nov 2026, 11:59 pm (end of Week 13)</strong></td>
+<td>🔥 <strong>Burn — April 2025</strong> (devices restarted May 2025)</td>
 <td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td><code>2025_07</code></td>
+<td>May 2025</td>
+<td>Jul 2025</td>
+<td>2 weeks post-burn</td>
+</tr>
+<tr class="odd">
+<td><code>2025_11</code></td>
+<td>Jul 2025</td>
+<td>Nov 2025</td>
+<td>3 months post-burn</td>
+</tr>
+<tr class="even">
+<td><code>2026_02</code></td>
+<td>Nov 2025</td>
+<td>Feb 2026</td>
+<td>7 months post-burn</td>
+</tr>
+<tr class="odd">
+<td><code>2026_04</code></td>
+<td>Feb 2026</td>
+<td>Apr 2026</td>
+<td>10 months post-burn</td>
+</tr>
+<tr class="even">
+<td><code>2026_07</code></td>
+<td>Apr 2026</td>
+<td>Jul 2026</td>
+<td>12 months post-burn</td>
 </tr>
 </tbody>
 </table>
-<hr>
-</section>
-<section id="contact" class="level2">
-<h2 class="anchored" data-anchor-id="contact">Contact</h2>
-<p>Questions or issues? Reach out via email —</p>
-<ul>
-<li><p>Eleanor - <strong>eleanor.hadfield@sydney.edu.au</strong></p></li>
-<li><p>Aaron - <strong>aaron.greenville@sydney.edu.au</strong></p></li>
-<li><p>Glenda - <strong>glenda.wardle@sydney.edu.au</strong></p></li>
-</ul>
-<section id="welcome-and-we-hope-you-enjoy-project-3" class="level3">
-<h3 class="anchored" data-anchor-id="welcome-and-we-hope-you-enjoy-project-3">Welcome and we hope you enjoy project 3!</h3>
+<div class="callout callout-style-default callout-warning callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Warning</span>Note
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>You will <strong>NOT</strong> use all of these. This will be one of your first major decisions to make as a group and this is where you get to start creating your own experiment. Think about your aims and hypotheses. How will you go about answering them and what data would you need to achieve these aims successfully?</p>
+</div>
+</div>
 
 
 </section>
