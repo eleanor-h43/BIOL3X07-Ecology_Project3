@@ -1,15 +1,15 @@
 ---
 title: "Birds, Burns & Bioacoustics 🔥🦅"
-subtitle: "BIOL3007 — Semester 2 2026"
+subtitle: "BIOL3X07 — Semester 2 2026"
 ---
 
 #### Welcome and thanks for joining project 3!
 
-Please note that this repo is under active construction and files will be added throughout the semester.
-
 NOTE: Technically it's **Ecoacoustics**, but then the alliteration is lost.
 
-This is the home page of our repository! It contains information regarding your assignment in general. Use the navigation bar above to move through different pages to learn more about the study design, the methods you will learn over the next semester, and to find relevant resources such as code and recommended literature.
+This is the home page of our repository! It contains information regarding your assignment in general. Use the navigation bar above to move through different pages to learn more about the study design, the methods you will learn over the next semester, and to find relevant resources such as code and recommended literature. 
+
+Please note that this repo is under active construction and components will be added throughout the semester. You are the first students to use it - how exciting! If you think there is something useful that could be added or changed, please let us know.
 
 ------------------------------------------------------------------------
 
