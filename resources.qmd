@@ -15,7 +15,7 @@ You can download pdf files of papers below.
 You should have read the papers above before you chose this project. If you haven't, try to read these papers before your Week 4 presentations **at the latest**. Many of the ideas discussed in these papers are fundamental to the project and will help you understand the study design, develop stronger hypotheses, and answer questions during presentations.
 :::
 
-## Software
+## 💾 Software
 
 ### BirdNET
 
@@ -25,7 +25,9 @@ We will go through how to use BirdNET together, but here are a couple of guides 
 
 Like BirdNET we will go through how to use Raven Annotate as well. The BirdNET guide above provides a step-by-step manual to use Raven after BirdNET, however, this requires Raven Pro (which requires payment). As Raven Pro is being retired at the end of the year, we will be trailing Raven Annotate (if this isn't easy to use, we will try a different method). Our guide for Raven Annotate can be found in the `Raven guide` page in the navigation bar.
 
-## Scripts
+## 📜 Scripts
+
+The `scripts` [folder](https://github.com/eleanor-h43/BIOL3X07-Ecology_Project3/tree/main/scripts) contains R scripts that have been developed to automate many of the more repetitive data-processing tasks associated with acoustic datasets.
 
 ### combine_birdnet_files
 
@@ -44,16 +46,5 @@ trip/
 
 This script applies species-specific confidence thresholds to BirdNET detections. Rather than using a single confidence threshold for all species, this approach allows each species to be filtered according to the threshold that was determined during the BirdNET validation process. This generally produces more reliable datasets for downstream analyses.
 
-## Repository Structure
-
-We have set up this GitHub repository to provide a central location for all materials you will need throughout the semester (with the exception of the raw audio recordings). The repository will continue to grow as the project progresses, so check back regularly for updates.
-
-### Scripts
-
-The `scripts` [folder](https://github.com/eleanor-h43/BIOL3X07-Ecology_Project3/tree/main/scripts) contains R scripts that have been developed to automate many of the more repetitive data-processing tasks associated with acoustic datasets.
-
-#### `combine_birdnet_files`
-
-#### `filter_birdnet_by_confidence`
 
 P.S. Here's a nicer looking map in case you want to use it. ![nice map](images/Layout21.jpg)
