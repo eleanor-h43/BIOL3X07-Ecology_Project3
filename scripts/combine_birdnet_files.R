@@ -1,5 +1,5 @@
 
-# BirdNET_combined
+# combine_birdnet_files.R
 # Eleanor Hadfield
 # 2023-06-05
 
@@ -83,4 +83,3 @@ final_df <- "/Users/eleanorhadfield/Desktop/birdnet/HR_2026_04/HR_2026_04.csv"
 
 ## WRITE THE COMBINED FILE TO A CSV FILE
 write_csv(combined, final_df)
-
