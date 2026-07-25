@@ -145,8 +145,14 @@ ul.task-list li input[type="checkbox"] {
   <li><a href="#methods-data" id="toc-methods-data" class="nav-link active" data-scroll-target="#methods-data">Methods &amp; Data</a>
   <ul class="collapse">
   <li><a href="#recording-equipment" id="toc-recording-equipment" class="nav-link" data-scroll-target="#recording-equipment">Recording Equipment</a></li>
-  <li><a href="#automated-species-detection" id="toc-automated-species-detection" class="nav-link" data-scroll-target="#automated-species-detection">Automated Species Detection</a></li>
   <li><a href="#data" id="toc-data" class="nav-link" data-scroll-target="#data">Data</a></li>
+  <li><a href="#automated-species-detection" id="toc-automated-species-detection" class="nav-link" data-scroll-target="#automated-species-detection">Automated Species Detection</a></li>
+  <li><a href="#project-workflow" id="toc-project-workflow" class="nav-link" data-scroll-target="#project-workflow">Project Workflow</a>
+  <ul class="collapse">
+  <li><a href="#assignment-workflow" id="toc-assignment-workflow" class="nav-link" data-scroll-target="#assignment-workflow">Assignment Workflow</a></li>
+  <li><a href="#processing-workflow" id="toc-processing-workflow" class="nav-link" data-scroll-target="#processing-workflow">Processing Workflow</a></li>
+  </ul></li>
+  <li><a href="#key-decisions-for-your-group" id="toc-key-decisions-for-your-group" class="nav-link" data-scroll-target="#key-decisions-for-your-group">Key Decisions for Your Group</a></li>
   </ul></li>
   </ul>
 </nav>
@@ -164,41 +170,11 @@ ul.task-list li input[type="checkbox"] {
 <ul>
 <li>Each site is fitted with an autonomous recording unit (ARU): <strong>Titley Scientific Chorus</strong></li>
 <li>Units are programmed to record the <strong>first 10 minutes of every hour</strong>, every day, until the batteries die</li>
+<li>Devices are <strong>serviced every 3 months</strong> to capture variation in bird activity caused by migration and changes in resource availability (eg. most nectar bearing plants in the region flower in Autumn-Winter)</li>
 <li>Audio is captured as <strong>16-bit WAV</strong>, sampled at <strong>44.1 ksps</strong> (44,100 samples/second)</li>
 <li>Recorders are cable-tied to trees with stainless steel ties, ~<strong>170 cm above ground</strong></li>
 </ul>
 <p><img src="images/aru-device.jpg" alt="Figure 2: ARU mounted on tree" width="400"></p>
-</section>
-<section id="automated-species-detection" class="level2">
-<h2 class="anchored" data-anchor-id="automated-species-detection">Automated Species Detection</h2>
-<p>Given the size of the dataset, manually listening to and verifying every vocalisation isn’t feasible, so detections are generated with BirdNET.</p>
-<ul>
-<li>Download: <a href="https://github.com/birdnet-team/BirdNET-Analyzer/releases/tag/v2.4.0">BirdNET-Analyzer v2.4.0</a> — make sure you’re all using the same Model version and GUI version.</li>
-<li>Works on Windows computers or on Macs with M1 chip (not Intel). To check what chip you have go to Apple symbol in top left corner and click on <code>About This Mac</code>.</li>
-<li>Can be slow to open on laptops — be patient!</li>
-<li>Easiest to run on a university computer while connected to the research data store via campus wifi — set yourself up in the library one day and get some work done while BirdNET runs.</li>
-</ul>
-<div class="callout callout-style-default callout-note callout-titled">
-<div class="callout-header d-flex align-content-center">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-<span class="screen-reader-only">Note</span>Relevant Literature
-</div>
-</div>
-<div class="callout-body-container callout-body">
-<p>Kahl, S., Wood, C. M., Eibl, M., &amp; Klinck, H. (2021). BirdNET: A deep learning solution for avian diversity monitoring. <em>Ecological Informatics</em>, 61, 101236.</p>
-</div>
-</div>
-<section id="thought-exercises" class="level4">
-<h4 class="anchored" data-anchor-id="thought-exercises">Thought Exercises</h4>
-<ul>
-<li>Consider the benefits and limitations of relying on an AI classifier for this project.</li>
-<li>Why activity, not abundance?</li>
-<li>Estimating true abundance from acoustic data alone is very difficult (cue-rate methods exist but vary by species, season, sex, weather, population/region, etc., and work far better for cetaceans than birds). This project instead measures either <strong>activity</strong> or <strong>presence–absence</strong>.</li>
-</ul>
-</section>
 </section>
 <section id="data" class="level2">
 <h2 class="anchored" data-anchor-id="data">Data</h2>
@@ -276,6 +252,83 @@ ul.task-list li input[type="checkbox"] {
 <p>You will <strong>NOT</strong> use all of these. This will be one of your first major decisions to make as a group and this is where you get to start creating your own experiment. Think about your aims and hypotheses. How will you go about answering them and what data would you need to achieve these aims successfully?</p>
 </div>
 </div>
+</section>
+<section id="automated-species-detection" class="level2">
+<h2 class="anchored" data-anchor-id="automated-species-detection">Automated Species Detection</h2>
+<p>Given the size of the dataset, manually listening to and verifying every vocalisation isn’t feasible, so detections are generated with BirdNET.</p>
+<p>Go to the Resources tab in the navigation bar for more information.</p>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Note</span>Relevant Literature
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Kahl, S., Wood, C. M., Eibl, M., &amp; Klinck, H. (2021). BirdNET: A deep learning solution for avian diversity monitoring. <em>Ecological Informatics</em>, 61, 101236.</p>
+</div>
+</div>
+<section id="thought-exercise" class="level4">
+<h4 class="anchored" data-anchor-id="thought-exercise">Thought Exercise</h4>
+<div class="callout callout-style-default callout-tip callout-titled">
+<div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-3-contents" aria-controls="callout-3" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Tip</span>Consider the benefits and limitations of relying on an AI classifier for this project.
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-3" class="callout-3-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<p>Think about accuracy, consistency, scalability, and where errors are most likely to creep in — e.g.&nbsp;false positives from background noise or overlapping calls, versus missed detections from quiet/distant vocalisations.</p>
+</div>
+</div>
+</div>
+<div class="callout callout-style-default callout-tip callout-titled">
+<div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-4-contents" aria-controls="callout-4" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Tip</span>Why activity, not abundance?
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-4" class="callout-4-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<p>Estimating true abundance from acoustic data alone is very difficult. Cue-rate methods exist but vary by species, season, sex, weather, population/region, etc., and work better for cetaceans than birds. This project instead measures either <strong>activity</strong> or <strong>presence–absence</strong>. You get to decide which to use but you must justify your decision with sound reasoning.</p>
+</div>
+</div>
+</div>
+</section>
+</section>
+<section id="project-workflow" class="level2">
+<h2 class="anchored" data-anchor-id="project-workflow">Project Workflow</h2>
+<section id="assignment-workflow" class="level3">
+<h3 class="anchored" data-anchor-id="assignment-workflow">Assignment Workflow</h3>
+<p><img src="images/workflow.png" width="800"></p>
+</section>
+<section id="processing-workflow" class="level3">
+<h3 class="anchored" data-anchor-id="processing-workflow">Processing Workflow</h3>
+<p><img src="images/processing_diagram.png" width="800"></p>
+</section>
+</section>
+<section id="key-decisions-for-your-group" class="level2">
+<h2 class="anchored" data-anchor-id="key-decisions-for-your-group">Key Decisions for Your Group</h2>
+<p>There is no single correct way to analyse these data. One of the goals of this project is to design and justify your own approach.</p>
+<p>Questions to consider include:</p>
+<ul class="task-list">
+<li><label><input type="checkbox">What hypotheses are you testing?</label></li>
+<li><label><input type="checkbox">What is the reasoning behind your hypotheses?</label></li>
+<li><label><input type="checkbox">Which datasets will you use?</label></li>
+<li><label><input type="checkbox">Which species or groups of species will you focus on? Or will you look at the entire community?</label></li>
+<li><label><input type="checkbox">Which species do you expect to find in the study area?</label></li>
+<li><label><input type="checkbox">Will you analyse activity or presence/absence?</label></li>
+</ul>
 
 
 </section>

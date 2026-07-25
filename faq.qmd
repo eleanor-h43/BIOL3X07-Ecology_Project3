@@ -11,3 +11,7 @@ Depends on your question...
 ## Why am I getting different BirdNET results?
 
 Check your model version...
+
+## Why not record continuously?
+
+Recorders sample the first 10 minutes of each hour rather than recording continuously. Ideally we would record continuously, however, this approach greatly increases deployment duration while still providing representative samples of bird activity throughout the day. Recent studies suggest that even sampling across the day can provide reliable metrics of bird diversity and activity. 
