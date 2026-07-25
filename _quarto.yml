@@ -15,8 +15,16 @@ website:
       - href: methods.qmd
         text: Methods & Data
 
-      - href: resources.qmd
-        text: Resources
+      - text: Resources
+        menu:
+          - href: resources.qmd
+            text: Overview
+
+          - href: birdnet_guide.qmd
+            text: BirdNET Guide
+
+          - href: raven_guide.qmd
+            text: Raven Guide
         
       - href: faq.qmd
         text: FAQ

@@ -13,10 +13,7 @@
 
 Given the size of the dataset, manually listening to and verifying every vocalisation isn't feasible, so detections are generated with BirdNET.
 
--   Download: [BirdNET-Analyzer v2.4.0](https://github.com/birdnet-team/BirdNET-Analyzer/releases/tag/v2.4.0) — make sure you're all using the same Model version and GUI version.
--   Works on Windows computers or on Macs with M1 chip (not Intel). To check what chip you have go to Apple symbol in top left corner and click on `About This Mac`.
--   Can be slow to open on laptops — be patient!
--   Easiest to run on a university computer while connected to the research data store via campus wifi — set yourself up in the library one day and get some work done while BirdNET runs.
+Go to the Resources tab in the navigation bar for more information.
 
 ::: callout-note
 ## Relevant Literature

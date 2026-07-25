@@ -1,0 +1,24 @@
+# BirdNET Guide
+
+## Installation
+
+You can go to the downloads page for BirdNET [here](https://github.com/birdnet-team/BirdNET-Analyzer/releases/tag/v2.4.0) — make sure you're all using the same Model version and GUI version.
+
+BirdNET works on Windows computers or on Macs with M1 chip (not Intel). To check what chip you have go to Apple symbol in top left corner and click on `About This Mac`.
+
+Once installed, BirdNET can be slow to open on laptops — be patient! It's easiest to run on a university computer while connected to the research data store via campus wifi — set yourself up in the library one day and get some work done while BirdNET runs.
+
+## Recommended Settings
+
+...
+
+## Running Large Batches
+
+...
+
+## Common Problems
+
+...
+
+
+
