@@ -22,7 +22,7 @@ Depends on your question...
 
 ## Where can we find what species are in the area?
 
-There are many only resources at your disposal where you can find information about species occurrences. Have a think back to previous units.
+There are many online resources at your disposal where you can find information about species occurrences. Have a think back to previous units.
 
 We will go through how to make a species list in BirdNET, but it would be best to have a basic understanding of who may be in the region and how they respond to fire (and why) before your Week 4 presentation.
 
