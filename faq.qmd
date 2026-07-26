@@ -1,17 +1,42 @@
 # FAQ
 
+We know there are many questions that you will have so we've tried to get a head start. This page won't answer all of them. Partly because we can't read your minds, but mostly because you are now nearing the end of your third year of your undergraduate degree. This project is designed to let you have a bit of freedom and allow you to test and apply what you have learnt over the past few years. 
+
+
 ## Which datasets should we use?
 
 There is no single correct answer...
+
+It all depends on your aims and hypotheses.
 
 ## How many species should we analyse?
 
 Depends on your question...
 
-## Why am I getting different BirdNET results?
-
-Check your model version...
-
 ## Why not record continuously?
 
-Recorders sample the first 10 minutes of each hour rather than recording continuously. Ideally we would record continuously, however, this approach greatly increases deployment duration while still providing representative samples of bird activity throughout the day. Recent studies suggest that even sampling across the day can provide reliable metrics of bird diversity and activity. 
+Recorders sample the first 10 minutes of each hour rather than recording continuously. Ideally we would record continuously, however, this would reduce the total duration of the study to less than 1 week. We also record bats on the same devices, and as these devices cannot record acoustic (birds) and ultrasonic (bats) at the same time, we must compromise. Our approach greatly increases deployment duration while still providing representative samples of bird activity throughout the day. Recent studies suggest that even sampling across the day can provide reliable metrics of bird diversity and activity. 
+
+## What should be included in the Methods section of my report?
+
+Have a look at the current literature and the answers are all there for you. Some of the key details that are common throughout ecoacoustic and fire ecology papers - but unique to this study design - can be found throughout this repository. The rest is up to you to determine, ask about, or figure out.
+
+## There are NAs in our combined dataset or the metadata is in the wrong column. Why, and what should I do?
+
+This is likely caused by the folder structure not being as the code expects. For example, the device folder is missing between the site and date folders. As a result, the code will continue to use the folder path as it's written to, resulting in data being in the wrong columns and NAs in the dataset as well. 
+
+Another reason is if one of the site numbers in the folder structure is incorrect, such as `UB8_06` being spelled as `ub8_06`, `UB8_6`, `Ub8_06`, or `UB_06`. The code expects `UB8_06` and R is case-specific. If one of your sites is spelled incorrectly in the folder structure, the code will fail to assign a treatment and will result in `NA`, which will make it very difficult to do your analyses.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
